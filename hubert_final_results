@@ -1,0 +1,146 @@
+HuBERT/wiki, 2/3 class, 1/10 first layers freezed
+
+python finetune_hubert_sentence.py --model ../hubert_wiki/ --local --freeze_layers -1 --binary
+
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9019607843137255, 'dev/precision_macro': 0.9295634920634921, 'dev/acc': 0.9019607843137255, 'dev/f1_micro': 0.9019607843137255, 'dev/f1_macro': 0.8814813437691721, 'epoch': 0}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9067534522439586, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.896969696969697, 'epoch': 1}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9163028752069848, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.89490942321131, 'epoch': 2}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9096016343207354, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.8963066423860964, 'epoch': 3}
+{'test/precision_micro': 0.9333333333333333, 'test/precision_macro': 0.9268342081722898, 'test/acc': 0.9333333333333333, 'test/f1_micro': 0.9333333333333333, 'test/f1_macro': 0.9268342081722898, 'epoch': 4}
+
+python finetune_hubert_sentence.py --model ../hubert_wiki/ --local --freeze_layers 10 --binary
+
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9159234752589183, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9059288537549407, 'epoch': 0}
+{'dev/precision_micro': 0.9294117647058824, 'dev/precision_macro': 0.9382932656413319, 'dev/acc': 0.9294117647058824, 'dev/f1_micro': 0.9294117647058824, 'dev/f1_macro': 0.9180357142857143, 'epoch': 1}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9258994430227308, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9040477342364135, 'epoch': 2}
+{'dev/precision_micro': 0.9254901960784314, 'dev/precision_macro': 0.9316666666666666, 'dev/acc': 0.9254901960784314, 'dev/f1_micro': 0.9254901960784314, 'dev/f1_macro': 0.9137731584473829, 'epoch': 3}
+{'test/precision_micro': 0.9450980392156862, 'test/precision_macro': 0.9371309771309771, 'test/acc': 0.9450980392156862, 'test/f1_micro': 0.9450980392156862, 'test/f1_macro': 0.9401969981238274, 'epoch': 4}
+
+python finetune_hubert_sentence.py --model ../hubert_wiki/ --local --freeze_layers -1 
+
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8331668331668332, 'dev/precision_macro': 0.8186411249287856, 'dev/acc': 0.8331668331668332, 'dev/f1_micro': 0.8331668331668332, 'dev/f1_macro': 0.6372018155253056, 'epoch': 0}
+{'dev/precision_micro': 0.8431568431568431, 'dev/precision_macro': 0.7751819567291943, 'dev/acc': 0.8431568431568431, 'dev/f1_micro': 0.8431568431568431, 'dev/f1_macro': 0.7131129024907006, 'epoch': 1}
+{'dev/precision_micro': 0.8311688311688312, 'dev/precision_macro': 0.7129794615155763, 'dev/acc': 0.8311688311688312, 'dev/f1_micro': 0.8311688311688312, 'dev/f1_macro': 0.7209850544545898, 'epoch': 2}
+{'dev/precision_micro': 0.8441558441558441, 'dev/precision_macro': 0.7428769685579025, 'dev/acc': 0.8441558441558441, 'dev/f1_micro': 0.8441558441558441, 'dev/f1_macro': 0.7223755088725042, 'epoch': 3}
+{'test/precision_micro': 0.8451548451548452, 'test/precision_macro': 0.7660951621477938, 'test/acc': 0.8451548451548452, 'test/f1_micro': 0.8451548451548452, 'test/f1_macro': 0.7453777532581372, 'epoch': 4}
+
+python finetune_hubert_sentence.py --model ../hubert_wiki/ --local --freeze_layers 10 
+
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8441558441558441, 'dev/precision_macro': 0.7753165345737604, 'dev/acc': 0.8441558441558441, 'dev/f1_micro': 0.8441558441558441, 'dev/f1_macro': 0.7293815484277615, 'epoch': 0}
+{'dev/precision_micro': 0.8451548451548452, 'dev/precision_macro': 0.819238742614535, 'dev/acc': 0.8451548451548452, 'dev/f1_micro': 0.8451548451548452, 'dev/f1_macro': 0.716143433999667, 'epoch': 1}
+{'dev/precision_micro': 0.8461538461538461, 'dev/precision_macro': 0.7593293518957971, 'dev/acc': 0.8461538461538461, 'dev/f1_micro': 0.8461538461538461, 'dev/f1_macro': 0.739347662236096, 'epoch': 2}
+{'dev/precision_micro': 0.8501498501498501, 'dev/precision_macro': 0.7617139206980336, 'dev/acc': 0.8501498501498501, 'dev/f1_micro': 0.8501498501498501, 'dev/f1_macro': 0.7496020782795858, 'epoch': 3}
+{'test/precision_micro': 0.8466533466533467, 'test/precision_macro': 0.7646870441658714, 'test/acc': 0.8466533466533467, 'test/f1_micro': 0.8466533466533467, 'test/f1_macro': 0.7464640288452263, 'epoch': 4}
+
+python finetune_hubert_entity.py --model ../hubert_wiki/ --local --freeze_layers -1 --binary
+
+{'dev/precision_micro': 0.3764705882352941, 'dev/precision_macro': 0.42499647539828, 'dev/acc': 0.3764705882352941, 'dev/f1_micro': 0.37647058823529406, 'dev/f1_macro': 0.3763171253211094, 'epoch': -1}
+{'dev/precision_micro': 0.8980392156862745, 'dev/precision_macro': 0.9075289575289576, 'dev/acc': 0.8980392156862745, 'dev/f1_micro': 0.8980392156862745, 'dev/f1_macro': 0.8799435028248588, 'epoch': 0}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9222222222222223, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9046966488102655, 'epoch': 1}
+{'dev/precision_micro': 0.9215686274509803, 'dev/precision_macro': 0.9327185792349727, 'dev/acc': 0.9215686274509803, 'dev/f1_micro': 0.9215686274509803, 'dev/f1_macro': 0.9082997698504027, 'epoch': 2}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9299601959583588, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9033759766153624, 'epoch': 3}
+{'test/precision_micro': 0.9313725490196079, 'test/precision_macro': 0.9294117647058824, 'test/acc': 0.9313725490196079, 'test/f1_micro': 0.9313725490196079, 'test/f1_macro': 0.9237762566242063, 'epoch': 4}
+
+python finetune_hubert_entity.py --model ../hubert_wiki/ --local --freeze_layers 10 --binary
+
+{'dev/precision_micro': 0.3764705882352941, 'dev/precision_macro': 0.42499647539828, 'dev/acc': 0.3764705882352941, 'dev/f1_micro': 0.37647058823529406, 'dev/f1_macro': 0.3763171253211094, 'epoch': -1}
+{'dev/precision_micro': 0.9215686274509803, 'dev/precision_macro': 0.9219904389395914, 'dev/acc': 0.9215686274509803, 'dev/f1_micro': 0.9215686274509803, 'dev/f1_macro': 0.9101226561398563, 'epoch': 0}
+{'dev/precision_micro': 0.9411764705882353, 'dev/precision_macro': 0.9404001702852277, 'dev/acc': 0.9411764705882353, 'dev/f1_micro': 0.9411764705882353, 'dev/f1_macro': 0.9332239311464534, 'epoch': 1}
+{'dev/precision_micro': 0.9215686274509803, 'dev/precision_macro': 0.9287740779453486, 'dev/acc': 0.9215686274509803, 'dev/f1_micro': 0.9215686274509803, 'dev/f1_macro': 0.9089285714285714, 'epoch': 2}
+{'dev/precision_micro': 0.9254901960784314, 'dev/precision_macro': 0.9282066248358383, 'dev/acc': 0.9254901960784314, 'dev/f1_micro': 0.9254901960784314, 'dev/f1_macro': 0.9143402697972101, 'epoch': 3}
+{'test/precision_micro': 0.9411764705882353, 'test/precision_macro': 0.9315136231024082, 'test/acc': 0.9411764705882353, 'test/f1_micro': 0.9411764705882353, 'test/f1_macro': 0.9362329954654574, 'epoch': 4}
+
+python finetune_hubert_entity.py --model ../hubert_wiki/ --local --freeze_layers -1 
+
+{'dev/precision_micro': 0.7422577422577422, 'dev/precision_macro': 0.41540785498489424, 'dev/acc': 0.7422577422577422, 'dev/f1_micro': 0.7422577422577422, 'dev/f1_macro': 0.29527328166615646, 'epoch': -1}
+{'dev/precision_micro': 0.8551448551448552, 'dev/precision_macro': 0.8540800761770666, 'dev/acc': 0.8551448551448552, 'dev/f1_micro': 0.8551448551448552, 'dev/f1_macro': 0.7019348772674446, 'epoch': 0}
+{'dev/precision_micro': 0.8641358641358642, 'dev/precision_macro': 0.8174761576347817, 'dev/acc': 0.8641358641358642, 'dev/f1_micro': 0.8641358641358641, 'dev/f1_macro': 0.7582384411918713, 'epoch': 1}
+{'dev/precision_micro': 0.8661338661338661, 'dev/precision_macro': 0.7897445436507936, 'dev/acc': 0.8661338661338661, 'dev/f1_micro': 0.8661338661338661, 'dev/f1_macro': 0.7703505612775196, 'epoch': 2}
+{'dev/precision_micro': 0.8701298701298701, 'dev/precision_macro': 0.7842020535358242, 'dev/acc': 0.8701298701298701, 'dev/f1_micro': 0.8701298701298701, 'dev/f1_macro': 0.7787768471108216, 'epoch': 3}
+{'test/precision_micro': 0.8731268731268731, 'test/precision_macro': 0.8018230374966281, 'test/acc': 0.8731268731268731, 'test/f1_micro': 0.873126873126873, 'test/f1_macro': 0.7908582411405911, 'epoch': 4}
+
+python finetune_hubert_entity.py --model ../hubert_wiki/ --local --freeze_layers 10 
+
+{'dev/precision_micro': 0.7422577422577422, 'dev/precision_macro': 0.41540785498489424, 'dev/acc': 0.7422577422577422, 'dev/f1_micro': 0.7422577422577422, 'dev/f1_macro': 0.29527328166615646, 'epoch': -1}
+{'dev/precision_micro': 0.8611388611388612, 'dev/precision_macro': 0.8007729513423628, 'dev/acc': 0.8611388611388612, 'dev/f1_micro': 0.8611388611388612, 'dev/f1_macro': 0.7523651504126887, 'epoch': 0}
+{'dev/precision_micro': 0.8681318681318682, 'dev/precision_macro': 0.8227913700460956, 'dev/acc': 0.8681318681318682, 'dev/f1_micro': 0.8681318681318682, 'dev/f1_macro': 0.7657087132180166, 'epoch': 1}
+{'dev/precision_micro': 0.8671328671328671, 'dev/precision_macro': 0.775268933433147, 'dev/acc': 0.8671328671328671, 'dev/f1_micro': 0.867132867132867, 'dev/f1_macro': 0.7774317372399201, 'epoch': 2}
+{'dev/precision_micro': 0.8701298701298701, 'dev/precision_macro': 0.7808833969907795, 'dev/acc': 0.8701298701298701, 'dev/f1_micro': 0.8701298701298701, 'dev/f1_macro': 0.7834419321996471, 'epoch': 3}
+{'test/precision_micro': 0.8621378621378621, 'test/precision_macro': 0.7764827130756929, 'test/acc': 0.8621378621378621, 'test/f1_micro': 0.8621378621378621, 'test/f1_macro': 0.7781069982738389, 'epoch': 4}
+
+python finetune_hubert_sentence.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers -1 --binary
+
+{'dev/precision_micro': 0.6431372549019608, 'dev/precision_macro': 0.328, 'dev/acc': 0.6431372549019608, 'dev/f1_micro': 0.6431372549019608, 'dev/f1_macro': 0.3914081145584726, 'epoch': -1}
+{'dev/precision_micro': 0.8901960784313725, 'dev/precision_macro': 0.8906973271614156, 'dev/acc': 0.8901960784313725, 'dev/f1_micro': 0.8901960784313725, 'dev/f1_macro': 0.8724999999999999, 'epoch': 0}
+{'dev/precision_micro': 0.9137254901960784, 'dev/precision_macro': 0.9230418943533698, 'dev/acc': 0.9137254901960784, 'dev/f1_micro': 0.9137254901960784, 'dev/f1_macro': 0.8991297468354431, 'epoch': 1}
+{'dev/precision_micro': 0.9137254901960784, 'dev/precision_macro': 0.9053884711779449, 'dev/acc': 0.9137254901960784, 'dev/f1_micro': 0.9137254901960784, 'dev/f1_macro': 0.9029411764705882, 'epoch': 2}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9132609621115368, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9065135036050348, 'epoch': 3}
+{'test/precision_micro': 0.9470588235294117, 'test/precision_macro': 0.938152504294965, 'test/acc': 0.9470588235294117, 'test/f1_micro': 0.9470588235294117, 'test/f1_macro': 0.9425414456856012, 'epoch': 4}
+
+python finetune_hubert_sentence.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers 10 --binary
+
+{'dev/precision_micro': 0.6431372549019608, 'dev/precision_macro': 0.328, 'dev/acc': 0.6431372549019608, 'dev/f1_micro': 0.6431372549019608, 'dev/f1_macro': 0.3914081145584726, 'epoch': -1}
+{'dev/precision_micro': 0.9294117647058824, 'dev/precision_macro': 0.9423952641165756, 'dev/acc': 0.9294117647058824, 'dev/f1_micro': 0.9294117647058824, 'dev/f1_macro': 0.9174697928653626, 'epoch': 0}
+{'dev/precision_micro': 0.9333333333333333, 'dev/precision_macro': 0.9494794856093081, 'dev/acc': 0.9333333333333333, 'dev/f1_micro': 0.9333333333333333, 'dev/f1_macro': 0.9217805524981506, 'epoch': 1}
+{'dev/precision_micro': 0.9411764705882353, 'dev/precision_macro': 0.9434335443037974, 'dev/acc': 0.9411764705882353, 'dev/f1_micro': 0.9411764705882353, 'dev/f1_macro': 0.9328063241106719, 'epoch': 2}
+{'dev/precision_micro': 0.9529411764705882, 'dev/precision_macro': 0.9497702589807853, 'dev/acc': 0.9529411764705882, 'dev/f1_micro': 0.9529411764705882, 'dev/f1_macro': 0.9470588235294117, 'epoch': 3}
+{'test/precision_micro': 0.9607843137254902, 'test/precision_macro': 0.9549806988519577, 'test/acc': 0.9607843137254902, 'test/f1_micro': 0.9607843137254902, 'test/f1_macro': 0.9571781222186772, 'epoch': 4}
+
+python finetune_hubert_sentence.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers -1 
+
+{'dev/precision_micro': 0.23076923076923078, 'dev/precision_macro': 0.3017568565294873, 'dev/acc': 0.23076923076923078, 'dev/f1_micro': 0.23076923076923078, 'dev/f1_macro': 0.18026126786484328, 'epoch': -1}
+{'dev/precision_micro': 0.7452547452547452, 'dev/precision_macro': 0.24841824841824842, 'dev/acc': 0.7452547452547452, 'dev/f1_micro': 0.7452547452547452, 'dev/f1_macro': 0.28467849647013926, 'epoch': 0}
+{'dev/precision_micro': 0.7572427572427572, 'dev/precision_macro': 0.4441718971695164, 'dev/acc': 0.7572427572427572, 'dev/f1_micro': 0.7572427572427574, 'dev/f1_macro': 0.45817031338966596, 'epoch': 1}
+{'dev/precision_micro': 0.7972027972027972, 'dev/precision_macro': 0.7141097384999823, 'dev/acc': 0.7972027972027972, 'dev/f1_micro': 0.7972027972027973, 'dev/f1_macro': 0.6098787193782305, 'epoch': 2}
+{'dev/precision_micro': 0.8121878121878122, 'dev/precision_macro': 0.6914559404141336, 'dev/acc': 0.8121878121878122, 'dev/f1_micro': 0.8121878121878122, 'dev/f1_macro': 0.6566224868341691, 'epoch': 3}
+{'test/precision_micro': 0.8226773226773226, 'test/precision_macro': 0.7446998167086168, 'test/acc': 0.8226773226773226, 'test/f1_micro': 0.8226773226773226, 'test/f1_macro': 0.6895695876512612, 'epoch': 4}
+
+python finetune_hubert_sentence.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers 10 
+
+{'dev/precision_micro': 0.23076923076923078, 'dev/precision_macro': 0.3017568565294873, 'dev/acc': 0.23076923076923078, 'dev/f1_micro': 0.23076923076923078, 'dev/f1_macro': 0.18026126786484328, 'epoch': -1}
+{'dev/precision_micro': 0.8461538461538461, 'dev/precision_macro': 0.7921550952798154, 'dev/acc': 0.8461538461538461, 'dev/f1_micro': 0.8461538461538461, 'dev/f1_macro': 0.7051943851012288, 'epoch': 0}
+{'dev/precision_micro': 0.8571428571428571, 'dev/precision_macro': 0.7950189384615615, 'dev/acc': 0.8571428571428571, 'dev/f1_micro': 0.8571428571428571, 'dev/f1_macro': 0.7445236878168023, 'epoch': 1}
+{'dev/precision_micro': 0.8471528471528471, 'dev/precision_macro': 0.7487618235700078, 'dev/acc': 0.8471528471528471, 'dev/f1_micro': 0.847152847152847, 'dev/f1_macro': 0.7446107715764708, 'epoch': 2}
+{'dev/precision_micro': 0.8431568431568431, 'dev/precision_macro': 0.7431960431972792, 'dev/acc': 0.8431568431568431, 'dev/f1_micro': 0.8431568431568431, 'dev/f1_macro': 0.7413380535902174, 'epoch': 3}
+{'test/precision_micro': 0.8651348651348651, 'test/precision_macro': 0.7931550068692611, 'test/acc': 0.8651348651348651, 'test/f1_micro': 0.865134865134865, 'test/f1_macro': 0.785715962123469, 'epoch': 4}
+
+python finetune_hubert_entity.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers -1 --binary
+
+{'dev/precision_micro': 0.6235294117647059, 'dev/precision_macro': 0.39715471250740964, 'dev/acc': 0.6235294117647059, 'dev/f1_micro': 0.6235294117647059, 'dev/f1_macro': 0.40292682926829265, 'epoch': -1}
+{'dev/precision_micro': 0.8901960784313725, 'dev/precision_macro': 0.9111174738219896, 'dev/acc': 0.8901960784313725, 'dev/f1_micro': 0.8901960784313725, 'dev/f1_macro': 0.8677777777777779, 'epoch': 0}
+{'dev/precision_micro': 0.9058823529411765, 'dev/precision_macro': 0.9097357025533821, 'dev/acc': 0.9058823529411765, 'dev/f1_micro': 0.9058823529411765, 'dev/f1_macro': 0.8907142857142857, 'epoch': 1}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9067534522439586, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.896969696969697, 'epoch': 2}
+{'dev/precision_micro': 0.9254901960784314, 'dev/precision_macro': 0.9250934982738781, 'dev/acc': 0.9254901960784314, 'dev/f1_micro': 0.9254901960784314, 'dev/f1_macro': 0.9148880105401844, 'epoch': 3}
+{'test/precision_micro': 0.9568627450980393, 'test/precision_macro': 0.952657428817364, 'test/acc': 0.9568627450980393, 'test/f1_micro': 0.9568627450980393, 'test/f1_macro': 0.952657428817364, 'epoch': 4}
+
+python finetune_hubert_entity.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers 10 --binary
+
+{'dev/precision_micro': 0.6235294117647059, 'dev/precision_macro': 0.39715471250740964, 'dev/acc': 0.6235294117647059, 'dev/f1_micro': 0.6235294117647059, 'dev/f1_macro': 0.40292682926829265, 'epoch': -1}
+{'dev/precision_micro': 0.9333333333333333, 'dev/precision_macro': 0.9227358873697036, 'dev/acc': 0.9333333333333333, 'dev/f1_micro': 0.9333333333333333, 'dev/f1_macro': 0.9260554371002132, 'epoch': 0}
+{'dev/precision_micro': 0.9568627450980393, 'dev/precision_macro': 0.958492975734355, 'dev/acc': 0.9568627450980393, 'dev/f1_micro': 0.9568627450980393, 'dev/f1_macro': 0.9510308828407326, 'epoch': 1}
+{'dev/precision_micro': 0.9647058823529412, 'dev/precision_macro': 0.9593596059113301, 'dev/acc': 0.9647058823529412, 'dev/f1_micro': 0.9647058823529412, 'dev/f1_macro': 0.9606353235793554, 'epoch': 2}
+{'dev/precision_micro': 0.9647058823529412, 'dev/precision_macro': 0.9593596059113301, 'dev/acc': 0.9647058823529412, 'dev/f1_micro': 0.9647058823529412, 'dev/f1_macro': 0.9606353235793554, 'epoch': 3}
+{'test/precision_micro': 0.9588235294117647, 'test/precision_macro': 0.951563122262047, 'test/acc': 0.9588235294117647, 'test/f1_micro': 0.9588235294117647, 'test/f1_macro': 0.9552023423611837, 'epoch': 4}
+
+python finetune_hubert_entity.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers -1 
+
+{'dev/precision_micro': 0.22977022977022976, 'dev/precision_macro': 0.32425986633563464, 'dev/acc': 0.22977022977022976, 'dev/f1_micro': 0.22977022977022976, 'dev/f1_macro': 0.20487267088011654, 'epoch': -1}
+{'dev/precision_micro': 0.8081918081918081, 'dev/precision_macro': 0.7885650428753878, 'dev/acc': 0.8081918081918081, 'dev/f1_micro': 0.8081918081918081, 'dev/f1_macro': 0.5628994388705167, 'epoch': 0}
+{'dev/precision_micro': 0.8521478521478522, 'dev/precision_macro': 0.7905734032049822, 'dev/acc': 0.8521478521478522, 'dev/f1_micro': 0.8521478521478522, 'dev/f1_macro': 0.7112218192216173, 'epoch': 1}
+{'dev/precision_micro': 0.8741258741258742, 'dev/precision_macro': 0.8016283423818513, 'dev/acc': 0.8741258741258742, 'dev/f1_micro': 0.8741258741258742, 'dev/f1_macro': 0.7796694948483468, 'epoch': 2}
+{'dev/precision_micro': 0.8711288711288712, 'dev/precision_macro': 0.7904471007919284, 'dev/acc': 0.8711288711288712, 'dev/f1_micro': 0.8711288711288712, 'dev/f1_macro': 0.7879953991258338, 'epoch': 3}
+{'test/precision_micro': 0.8676323676323676, 'test/precision_macro': 0.7904035925013079, 'test/acc': 0.8676323676323676, 'test/f1_micro': 0.8676323676323676, 'test/f1_macro': 0.7849945817803206, 'epoch': 4}
+
+python finetune_hubert_entity.py --model SZTAKI-HLT/hubert-base-cc --freeze_layers 10 
+
+{'dev/precision_micro': 0.22977022977022976, 'dev/precision_macro': 0.32425986633563464, 'dev/acc': 0.22977022977022976, 'dev/f1_micro': 0.22977022977022976, 'dev/f1_macro': 0.20487267088011654, 'epoch': -1}
+{'dev/precision_micro': 0.8581418581418582, 'dev/precision_macro': 0.7933858721076685, 'dev/acc': 0.8581418581418582, 'dev/f1_micro': 0.8581418581418582, 'dev/f1_macro': 0.744854021456117, 'epoch': 0}
+{'dev/precision_micro': 0.8811188811188811, 'dev/precision_macro': 0.8151274396595286, 'dev/acc': 0.8811188811188811, 'dev/f1_micro': 0.881118881118881, 'dev/f1_macro': 0.7888340233095582, 'epoch': 1}
+{'dev/precision_micro': 0.8801198801198801, 'dev/precision_macro': 0.7904875691711878, 'dev/acc': 0.8801198801198801, 'dev/f1_micro': 0.8801198801198801, 'dev/f1_macro': 0.8012666564044291, 'epoch': 2}
+{'dev/precision_micro': 0.8941058941058941, 'dev/precision_macro': 0.8172457773395431, 'dev/acc': 0.8941058941058941, 'dev/f1_micro': 0.8941058941058942, 'dev/f1_macro': 0.8245841045848694, 'epoch': 3}
+{'test/precision_micro': 0.8876123876123876, 'test/precision_macro': 0.8175626809455547, 'test/acc': 0.8876123876123876, 'test/f1_micro': 0.8876123876123876, 'test/f1_macro': 0.8219636302969634, 'epoch': 4}
+
