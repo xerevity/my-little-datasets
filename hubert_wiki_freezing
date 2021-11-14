@@ -1,0 +1,98 @@
+HuBERT wiki, freezed: -1 binary
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9019607843137255, 'dev/precision_macro': 0.9295634920634921, 'dev/acc': 0.9019607843137255, 'dev/f1_micro': 0.9019607843137255, 'dev/f1_macro': 0.8814813437691721, 'epoch': 0}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9067534522439586, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.896969696969697, 'epoch': 1}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9163028752069848, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.89490942321131, 'epoch': 2}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9096016343207354, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.8963066423860964, 'epoch': 3}
+{'test/precision_micro': 0.9333333333333333, 'test/precision_macro': 0.9268342081722898, 'test/acc': 0.9333333333333333, 'test/f1_micro': 0.9333333333333333, 'test/f1_macro': 0.9268342081722898, 'epoch': 4}
+HuBERT wiki, freezed: 2 binary
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9137254901960784, 'dev/precision_macro': 0.9230418943533698, 'dev/acc': 0.9137254901960784, 'dev/f1_micro': 0.9137254901960784, 'dev/f1_macro': 0.8991297468354431, 'epoch': 0}
+{'dev/precision_micro': 0.9137254901960784, 'dev/precision_macro': 0.9158335783593061, 'dev/acc': 0.9137254901960784, 'dev/f1_micro': 0.9137254901960784, 'dev/f1_macro': 0.9004895700297999, 'epoch': 1}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9202005511328842, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.8941736886739683, 'epoch': 2}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9222222222222223, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9046966488102655, 'epoch': 3}
+{'test/precision_micro': 0.9294117647058824, 'test/precision_macro': 0.9225303380647775, 'test/acc': 0.9294117647058824, 'test/f1_micro': 0.9294117647058824, 'test/f1_macro': 0.9225303380647775, 'epoch': 4}
+HuBERT wiki, freezed: 4 binary
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9344319775596073, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9026805997273968, 'epoch': 0}
+{'dev/precision_micro': 0.9294117647058824, 'dev/precision_macro': 0.9282142857142857, 'dev/acc': 0.9294117647058824, 'dev/f1_micro': 0.9294117647058824, 'dev/f1_macro': 0.919620341832446, 'epoch': 1}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9127777777777778, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.8956201391731478, 'epoch': 2}
+{'dev/precision_micro': 0.9137254901960784, 'dev/precision_macro': 0.9158335783593061, 'dev/acc': 0.9137254901960784, 'dev/f1_micro': 0.9137254901960784, 'dev/f1_macro': 0.9004895700297999, 'epoch': 3}
+{'test/precision_micro': 0.9392156862745098, 'test/precision_macro': 0.9337687829971572, 'test/acc': 0.9392156862745098, 'test/f1_micro': 0.9392156862745098, 'test/f1_macro': 0.9332040508511097, 'epoch': 4}
+HuBERT wiki, freezed: 6 binary
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9344129554655871, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.891807633418805, 'epoch': 0}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9258994430227308, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9040477342364135, 'epoch': 1}
+{'dev/precision_micro': 0.9137254901960784, 'dev/precision_macro': 0.9230418943533698, 'dev/acc': 0.9137254901960784, 'dev/f1_micro': 0.9137254901960784, 'dev/f1_macro': 0.8991297468354431, 'epoch': 2}
+{'dev/precision_micro': 0.9137254901960784, 'dev/precision_macro': 0.9192548902493654, 'dev/acc': 0.9137254901960784, 'dev/f1_micro': 0.9137254901960784, 'dev/f1_macro': 0.8998214285714285, 'epoch': 3}
+{'test/precision_micro': 0.9372549019607843, 'test/precision_macro': 0.9321015931185423, 'test/acc': 0.9372549019607843, 'test/f1_micro': 0.9372549019607843, 'test/f1_macro': 0.9309597942331123, 'epoch': 4}
+HuBERT wiki, freezed: 8 binary
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9244974287050023, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.8934120854157201, 'epoch': 0}
+{'dev/precision_micro': 0.9058823529411765, 'dev/precision_macro': 0.9133652094717668, 'dev/acc': 0.9058823529411765, 'dev/f1_micro': 0.9058823529411765, 'dev/f1_macro': 0.8899597238204833, 'epoch': 1}
+{'dev/precision_micro': 0.8980392156862745, 'dev/precision_macro': 0.9036885245901639, 'dev/acc': 0.8980392156862745, 'dev/f1_micro': 0.8980392156862745, 'dev/f1_macro': 0.8807897008055237, 'epoch': 2}
+{'dev/precision_micro': 0.9098039215686274, 'dev/precision_macro': 0.9096016343207354, 'dev/acc': 0.9098039215686274, 'dev/f1_micro': 0.9098039215686274, 'dev/f1_macro': 0.8963066423860964, 'epoch': 3}
+{'test/precision_micro': 0.9333333333333333, 'test/precision_macro': 0.9259601336714303, 'test/acc': 0.9333333333333333, 'test/f1_micro': 0.9333333333333333, 'test/f1_macro': 0.927020202020202, 'epoch': 4}
+HuBERT wiki, freezed: 10 binary
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9159234752589183, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9059288537549407, 'epoch': 0}
+{'dev/precision_micro': 0.9294117647058824, 'dev/precision_macro': 0.9382932656413319, 'dev/acc': 0.9294117647058824, 'dev/f1_micro': 0.9294117647058824, 'dev/f1_macro': 0.9180357142857143, 'epoch': 1}
+{'dev/precision_micro': 0.9176470588235294, 'dev/precision_macro': 0.9258994430227308, 'dev/acc': 0.9176470588235294, 'dev/f1_micro': 0.9176470588235294, 'dev/f1_macro': 0.9040477342364135, 'epoch': 2}
+{'dev/precision_micro': 0.9254901960784314, 'dev/precision_macro': 0.9316666666666666, 'dev/acc': 0.9254901960784314, 'dev/f1_micro': 0.9254901960784314, 'dev/f1_macro': 0.9137731584473829, 'epoch': 3}
+{'test/precision_micro': 0.9450980392156862, 'test/precision_macro': 0.9371309771309771, 'test/acc': 0.9450980392156862, 'test/f1_micro': 0.9450980392156862, 'test/f1_macro': 0.9401969981238274, 'epoch': 4}
+HuBERT wiki, freezed: 12 binary
+{'dev/precision_micro': 0.3333333333333333, 'dev/precision_macro': 0.38665674603174605, 'dev/acc': 0.3333333333333333, 'dev/f1_micro': 0.3333333333333333, 'dev/f1_macro': 0.32786529397171915, 'epoch': -1}
+{'dev/precision_micro': 0.8941176470588236, 'dev/precision_macro': 0.8884134062140392, 'dev/acc': 0.8941176470588236, 'dev/f1_micro': 0.8941176470588236, 'dev/f1_macro': 0.8790513833992095, 'epoch': 0}
+{'dev/precision_micro': 0.8901960784313725, 'dev/precision_macro': 0.8850499782703173, 'dev/acc': 0.8901960784313725, 'dev/f1_micro': 0.8901960784313725, 'dev/f1_macro': 0.8741717185957987, 'epoch': 1}
+{'dev/precision_micro': 0.8901960784313725, 'dev/precision_macro': 0.8850499782703173, 'dev/acc': 0.8901960784313725, 'dev/f1_micro': 0.8901960784313725, 'dev/f1_macro': 0.8741717185957987, 'epoch': 2}
+{'dev/precision_micro': 0.8901960784313725, 'dev/precision_macro': 0.8850499782703173, 'dev/acc': 0.8901960784313725, 'dev/f1_micro': 0.8901960784313725, 'dev/f1_macro': 0.8741717185957987, 'epoch': 3}
+{'test/precision_micro': 0.9117647058823529, 'test/precision_macro': 0.909656066124965, 'test/acc': 0.9117647058823529, 'test/f1_micro': 0.9117647058823528, 'test/f1_macro': 0.9014492753623188, 'epoch': 4}
+HuBERT wiki, freezed: -1 3class
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8331668331668332, 'dev/precision_macro': 0.8186411249287856, 'dev/acc': 0.8331668331668332, 'dev/f1_micro': 0.8331668331668332, 'dev/f1_macro': 0.6372018155253056, 'epoch': 0}
+{'dev/precision_micro': 0.8431568431568431, 'dev/precision_macro': 0.7751819567291943, 'dev/acc': 0.8431568431568431, 'dev/f1_micro': 0.8431568431568431, 'dev/f1_macro': 0.7131129024907006, 'epoch': 1}
+{'dev/precision_micro': 0.8311688311688312, 'dev/precision_macro': 0.7129794615155763, 'dev/acc': 0.8311688311688312, 'dev/f1_micro': 0.8311688311688312, 'dev/f1_macro': 0.7209850544545898, 'epoch': 2}
+{'dev/precision_micro': 0.8441558441558441, 'dev/precision_macro': 0.7428769685579025, 'dev/acc': 0.8441558441558441, 'dev/f1_micro': 0.8441558441558441, 'dev/f1_macro': 0.7223755088725042, 'epoch': 3}
+{'test/precision_micro': 0.8451548451548452, 'test/precision_macro': 0.7660951621477938, 'test/acc': 0.8451548451548452, 'test/f1_micro': 0.8451548451548452, 'test/f1_macro': 0.7453777532581372, 'epoch': 4}
+HuBERT wiki, freezed: 2 3class
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8561438561438561, 'dev/precision_macro': 0.8114105525251035, 'dev/acc': 0.8561438561438561, 'dev/f1_micro': 0.856143856143856, 'dev/f1_macro': 0.7360921863575807, 'epoch': 0}
+{'dev/precision_micro': 0.8461538461538461, 'dev/precision_macro': 0.7832498093474234, 'dev/acc': 0.8461538461538461, 'dev/f1_micro': 0.8461538461538461, 'dev/f1_macro': 0.7240026812769882, 'epoch': 1}
+{'dev/precision_micro': 0.8431568431568431, 'dev/precision_macro': 0.7428176226380536, 'dev/acc': 0.8431568431568431, 'dev/f1_micro': 0.8431568431568431, 'dev/f1_macro': 0.7387586175421715, 'epoch': 2}
+{'dev/precision_micro': 0.8351648351648352, 'dev/precision_macro': 0.7275257336402848, 'dev/acc': 0.8351648351648352, 'dev/f1_micro': 0.8351648351648353, 'dev/f1_macro': 0.7191799363937683, 'epoch': 3}
+{'test/precision_micro': 0.8456543456543456, 'test/precision_macro': 0.7627275845096365, 'test/acc': 0.8456543456543456, 'test/f1_micro': 0.8456543456543456, 'test/f1_macro': 0.74708036681929, 'epoch': 4}
+HuBERT wiki, freezed: 4 3class
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8501498501498501, 'dev/precision_macro': 0.831549923430699, 'dev/acc': 0.8501498501498501, 'dev/f1_micro': 0.8501498501498501, 'dev/f1_macro': 0.7041576918986658, 'epoch': 0}
+{'dev/precision_micro': 0.8461538461538461, 'dev/precision_macro': 0.7625339714608201, 'dev/acc': 0.8461538461538461, 'dev/f1_micro': 0.8461538461538461, 'dev/f1_macro': 0.7309241867517856, 'epoch': 1}
+{'dev/precision_micro': 0.8371628371628371, 'dev/precision_macro': 0.7261062526728507, 'dev/acc': 0.8371628371628371, 'dev/f1_micro': 0.8371628371628371, 'dev/f1_macro': 0.7279227376086945, 'epoch': 2}
+{'dev/precision_micro': 0.8521478521478522, 'dev/precision_macro': 0.7634413964247736, 'dev/acc': 0.8521478521478522, 'dev/f1_micro': 0.8521478521478522, 'dev/f1_macro': 0.7485549027180651, 'epoch': 3}
+{'test/precision_micro': 0.8521478521478522, 'test/precision_macro': 0.7778245176328383, 'test/acc': 0.8521478521478522, 'test/f1_micro': 0.8521478521478522, 'test/f1_macro': 0.7539525215584427, 'epoch': 4}
+HuBERT wiki, freezed: 6 3class
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8531468531468531, 'dev/precision_macro': 0.8438748509242696, 'dev/acc': 0.8531468531468531, 'dev/f1_micro': 0.8531468531468531, 'dev/f1_macro': 0.7149586339730347, 'epoch': 0}
+{'dev/precision_micro': 0.8461538461538461, 'dev/precision_macro': 0.806219144087715, 'dev/acc': 0.8461538461538461, 'dev/f1_micro': 0.8461538461538461, 'dev/f1_macro': 0.7202766375258345, 'epoch': 1}
+{'dev/precision_micro': 0.8381618381618382, 'dev/precision_macro': 0.7259804516538986, 'dev/acc': 0.8381618381618382, 'dev/f1_micro': 0.8381618381618382, 'dev/f1_macro': 0.7276501680979274, 'epoch': 2}
+{'dev/precision_micro': 0.8511488511488512, 'dev/precision_macro': 0.7549239784092198, 'dev/acc': 0.8511488511488512, 'dev/f1_micro': 0.8511488511488512, 'dev/f1_macro': 0.743863583859541, 'epoch': 3}
+{'test/precision_micro': 0.8436563436563437, 'test/precision_macro': 0.7658439364564146, 'test/acc': 0.8436563436563437, 'test/f1_micro': 0.8436563436563437, 'test/f1_macro': 0.7472504643665241, 'epoch': 4}
+HuBERT wiki, freezed: 8 3class
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8461538461538461, 'dev/precision_macro': 0.8374143988250307, 'dev/acc': 0.8461538461538461, 'dev/f1_micro': 0.8461538461538461, 'dev/f1_macro': 0.6952261917459696, 'epoch': 0}
+{'dev/precision_micro': 0.8431568431568431, 'dev/precision_macro': 0.7766362432460389, 'dev/acc': 0.8431568431568431, 'dev/f1_micro': 0.8431568431568431, 'dev/f1_macro': 0.7248850437545599, 'epoch': 1}
+{'dev/precision_micro': 0.8291708291708292, 'dev/precision_macro': 0.7193502935420742, 'dev/acc': 0.8291708291708292, 'dev/f1_micro': 0.8291708291708292, 'dev/f1_macro': 0.7212274723631974, 'epoch': 2}
+{'dev/precision_micro': 0.8411588411588412, 'dev/precision_macro': 0.745040638506357, 'dev/acc': 0.8411588411588412, 'dev/f1_micro': 0.8411588411588412, 'dev/f1_macro': 0.7304265910568594, 'epoch': 3}
+{'test/precision_micro': 0.8456543456543456, 'test/precision_macro': 0.7646664021407856, 'test/acc': 0.8456543456543456, 'test/f1_micro': 0.8456543456543456, 'test/f1_macro': 0.744881656380563, 'epoch': 4}
+HuBERT wiki, freezed: 10 3class
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8441558441558441, 'dev/precision_macro': 0.7753165345737604, 'dev/acc': 0.8441558441558441, 'dev/f1_micro': 0.8441558441558441, 'dev/f1_macro': 0.7293815484277615, 'epoch': 0}
+{'dev/precision_micro': 0.8451548451548452, 'dev/precision_macro': 0.819238742614535, 'dev/acc': 0.8451548451548452, 'dev/f1_micro': 0.8451548451548452, 'dev/f1_macro': 0.716143433999667, 'epoch': 1}
+{'dev/precision_micro': 0.8461538461538461, 'dev/precision_macro': 0.7593293518957971, 'dev/acc': 0.8461538461538461, 'dev/f1_micro': 0.8461538461538461, 'dev/f1_macro': 0.739347662236096, 'epoch': 2}
+{'dev/precision_micro': 0.8501498501498501, 'dev/precision_macro': 0.7617139206980336, 'dev/acc': 0.8501498501498501, 'dev/f1_micro': 0.8501498501498501, 'dev/f1_macro': 0.7496020782795858, 'epoch': 3}
+{'test/precision_micro': 0.8466533466533467, 'test/precision_macro': 0.7646870441658714, 'test/acc': 0.8466533466533467, 'test/f1_micro': 0.8466533466533467, 'test/f1_macro': 0.7464640288452263, 'epoch': 4}
+HuBERT wiki, freezed: 12 3class
+{'dev/precision_micro': 0.7362637362637363, 'dev/precision_macro': 0.3572312648355375, 'dev/acc': 0.7362637362637363, 'dev/f1_micro': 0.7362637362637363, 'dev/f1_macro': 0.2975234109474204, 'epoch': -1}
+{'dev/precision_micro': 0.8061938061938062, 'dev/precision_macro': 0.7809823027214332, 'dev/acc': 0.8061938061938062, 'dev/f1_micro': 0.8061938061938062, 'dev/f1_macro': 0.6010866169830532, 'epoch': 0}
+{'dev/precision_micro': 0.8101898101898102, 'dev/precision_macro': 0.772916832049959, 'dev/acc': 0.8101898101898102, 'dev/f1_micro': 0.8101898101898102, 'dev/f1_macro': 0.6195359308291177, 'epoch': 1}
+{'dev/precision_micro': 0.8121878121878122, 'dev/precision_macro': 0.751851468314883, 'dev/acc': 0.8121878121878122, 'dev/f1_micro': 0.8121878121878122, 'dev/f1_macro': 0.637309788914357, 'epoch': 2}
+{'dev/precision_micro': 0.8181818181818182, 'dev/precision_macro': 0.7514826351383412, 'dev/acc': 0.8181818181818182, 'dev/f1_micro': 0.8181818181818182, 'dev/f1_macro': 0.6582283560578048, 'epoch': 3}
+{'test/precision_micro': 0.8116883116883117, 'test/precision_macro': 0.7537358533031432, 'test/acc': 0.8116883116883117, 'test/f1_micro': 0.8116883116883117, 'test/f1_macro': 0.6428699019301197, 'epoch': 4}
